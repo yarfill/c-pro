@@ -18,7 +18,7 @@ h1 {
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
-    color:darkred;
+    color: red;
 }
 #myDIV {
     position: absolute;
@@ -31,6 +31,9 @@ p {
 } 
 @keyframes mymove {
     50% {bottom: 300px;}
+}
+.p-style {
+    color: darkgreen;
 }
 .button {
     border: none;
@@ -61,4 +64,20 @@ p {
 .button2:hover {
     background-color: #008CBA;
     color: white;
+}
+.div-style {
+    text-align:center;
+    padding:0;
+}
+.div-style {
+    text-align:left;
+    padding-left: 60px;
+}
+.link-style {
+    text-align: center; 
+    padding-inline: 150px;
+}
+#link-style {
+    text-align: center; 
+    padding-inline: 150px;
 }
