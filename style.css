@@ -1,14 +1,9 @@
 html {
-     background-color: hsla(hue, saturation, lightness, alpha);
-}
-.link-style {
-    color: orange;
-    text-decoration: none;
-}
-body {
-    background-image: url("Images/1838864.jpg");
-    background-size: cover;
-    background-repeat:no-repeat;       
+     background-image: url("Images/1838864.jpg");
+     background-repeat:no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     background-size: cover;
 }
 h1 {
     color: firebrick;
@@ -20,6 +15,23 @@ p {
     font-size: 35px;
     color: red;
 }
+
+/* Navigation Links */
+/* -----------------*/
+#link-outer-div {
+    text-align: center; 
+    width: 100%;
+    display: inline-block;
+}
+.link-inner-div {
+    width: 25%;
+    float: left;
+}
+.link-inner-div:after {
+    clear: both;
+}
+
+/* -----------------*/
 #myDIV {
     position: absolute;
     width: 250px;
@@ -31,6 +43,11 @@ p {
 } 
 @keyframes mymove {
     50% {bottom: 300px;}
+}
+.link-style {
+    color: orange;
+    text-decoration: none;
+    width: 100%;
 }
 .p-style {
     color: darkgreen;
@@ -66,18 +83,6 @@ p {
     color: white;
 }
 .div-style {
-    text-align:center;
-    padding:0;
-}
-.div-style {
     text-align:left;
     padding-left: 60px;
-}
-.link-style {
-    text-align: center; 
-    padding-inline: 150px;
-}
-#link-style {
-    text-align: center; 
-    padding-inline: 150px;
 }
