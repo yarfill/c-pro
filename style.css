@@ -7,14 +7,14 @@ html {
      overflow: hidden;
 }
 h1 {
-    color: firebrick;
+    color: gold;
     text-align: center;
-    font-size: 70px;
+    font-size: 40px;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
-    color: red;
+    font-size: 25px;
+    color: gold;
 }
 
 /* Navigation Links */
@@ -43,7 +43,7 @@ p {
     animation: mymove 6s infinite;
 } 
 @keyframes mymove {
-    50% {bottom: 300px;}
+    40% {bottom: 300px;}
 }
 .link-style {
     color: orange;
@@ -54,36 +54,34 @@ p {
     color: darkgreen;
 }
 .button {
-    border: none;
-    color: white;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    transition-duration: 0.4s;
+    transition-duration: 5s;
     cursor: pointer;
 } 
 .button1 {
-    background-color: white;
-    color: black;
-    border: 2px solid #4CAF50;
+    background-color: black;
+    color: orange;
+    border: 2px solid orange;
 }
 .button1:hover {
-    background-color: #4CAF50;
-    color: white;
+    background-color: orange;
+    color: black;
 }
 .button2 {
-    background-color: white;
+    background-color: orange;
     color: black;
-    border: 2px solid #008CBA;
+    border: 2px solid orange;
 }
 .button2:hover {
-    background-color: #008CBA;
-    color: white;
+    background-color: black;
+    color: orange;
 }
 .div-style {
-    text-align:left;
+    text-align: center;
     padding-left: 60px;
 }
