@@ -4,6 +4,7 @@ html {
      background-position: center center;
      background-attachment: fixed;
      background-size: cover;
+     overflow: hidden;
 }
 h1 {
     color: firebrick;
