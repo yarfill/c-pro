@@ -1,5 +1,5 @@
 html {
-     background-image: url("Images/1838864.jpg");
+     background: url("Images/1838864.jpg");
      background-repeat:no-repeat;
      background-position: center center;
      background-attachment: fixed;
@@ -60,7 +60,7 @@ p {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    transition-duration: 5s;
+    transition-duration: 2s;
     cursor: pointer;
 } 
 .button1 {
